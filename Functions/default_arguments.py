@@ -30,3 +30,9 @@ print()
 # # pet_description(animal_name="horse",animal_specie="Google") 
 # #this keywords can also be written in any order
 # pet_description(animal_specie="Google",animal_name="horse") 
+
+print()
+def makeshirt(size):
+    print(f"Hello I wear a T-shirt of size {size}")
+makeshirt("22cm")   
+makeshirt(size="25cm") 
